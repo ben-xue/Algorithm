@@ -1,0 +1,4 @@
+/cygdrive/v/git/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/v/git/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/v/git/Algorithm/cmake-build-debug/CMakeFiles/Algorithm2.dir
+/cygdrive/v/git/Algorithm/cmake-build-debug/CMakeFiles/Def.dir
