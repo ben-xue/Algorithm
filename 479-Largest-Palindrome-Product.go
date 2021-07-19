@@ -1,11 +1,3 @@
-package main
-
-import (
-	"fmt"
-	"math"
-	"strconv"
-)
-
 func IsPalindromeTimeout(num uint64) bool {
 	bitNums := []int{}
 	tmp := num
@@ -47,6 +39,7 @@ func largestPalindromeTimeout(n int) int {
 	return int(iMaxRes % 1337)
 }
 
+//————————————————————————————————————————————————————————
 func ReverseStr(str string) string {
 	runes := []rune(str)
 
@@ -82,10 +75,4 @@ func largestPalindrome(n int) int {
 		}
 	}
 	return 0
-}
-
-func main() {
-	for i := 2; i < 9; i++ {
-		fmt.Println(largestPalindrome(i))
-	}
 }
