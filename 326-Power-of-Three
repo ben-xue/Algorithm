@@ -1,0 +1,17 @@
+func isPowerOfThree(n int) bool {
+	remainder := n % 10
+	
+	if remainder != 1 && remainder != 3 && remainder != 7 && remainder != 9{
+		return false
+	}
+
+	for n % 3 == 0 {
+		n /= 3
+	}
+
+	if 1 == n{
+		return true
+	}
+
+	return false
+}
